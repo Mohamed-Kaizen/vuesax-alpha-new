@@ -1,0 +1,33 @@
+{
+  "name": "vuesax-alpha-new",
+  "private": false,
+  "version": "0.0.4",
+  "scripts": {
+    "build": "tsx scripts/build.ts && vite build",
+    "preview": "pnpm pack"
+  },
+  "type": "module",
+  "module": "./dist/vuesax-alpha-new.js",
+  "types": "./dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "vue": "^3.4"
+  },
+  "peerDependencies": {
+    "vue": "^3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.2.0",
+    "lightningcss": "^1.24.1",
+    "tsx": "^4.7.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-css-injected-by-js": "^3.5.0",
+    "vite-plugin-dts": "^3.8.3",
+    "vue-tsc": "^2.0.6"
+  }
+}
